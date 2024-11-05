@@ -1,7 +1,4 @@
-# Irrelevant-Pixel-Image-Mask-Generator-Tool
-Research Project about Irrelevant Pixel Image-Mask Generator Tool.
-
-# Irrelevant Pixel Mask Generator (IPMGs)
+# Irrelevant Pixel Image Mask Generator Tool
 
 This project generates various types of masks on input images using different image processing techniques. It includes techniques like **Saliency Map**, **Background Subtraction**, **Edge Detection**, **Mask R-CNN**, and **DeepLabV3** to highlight or remove irrelevant pixel areas in an image. The application is built with **Streamlit** and supports easy setup using a virtual environment.
 
@@ -11,8 +8,6 @@ This project generates various types of masks on input images using different im
 - [Usage](#usage)
 - [Features](#features)
 - [Makefile](#makefile)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -26,8 +21,8 @@ This project generates various types of masks on input images using different im
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/yourprojectname.git
-    cd yourprojectname
+    git clone https://github.com/ale3665/Irrelevant-Pixel-Image-Mask-Generator-Tool.git
+    cd Irrelevant-Pixel-Image-Mask-Generator-Tool
     ```
 
 2. **Create and activate a virtual environment**:
@@ -111,19 +106,3 @@ For macOS/Linux users, a `Makefile` is included to simplify setup, installation,
     ```
 
 For Windows users, the Makefile might not work directly. Instead, a `setup.bat` or `setup.ps1` script can be used for setup and running.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request to suggest improvements, report bugs, or add new features.
-
-### Steps to Contribute
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/YourFeature`)
-3. **Commit your changes** (`git commit -m 'Add a new feature'`)
-4. **Push to the branch** (`git push origin feature/YourFeature`)
-5. **Create a new Pull Request**
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
